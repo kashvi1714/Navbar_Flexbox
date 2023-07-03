@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar using FlexBox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="bar">
+        <div class="brand">🏰</div>
+        <div class="search">
+            <input class="input" type="text" placeholder="Search something">
+            <button class="btn">Search</button>
+        </div>
+
+        <ul class="nav">
+            <li class="item">
+                <a class="activ" href="#">Home</a>
+            </li>
+
+            <li>
+                <a  class="link" href="#">About</a>
+            </li>
+
+            <li>
+                <a  class="link" href="#">Services</a>
+            </li>
+
+            <li>
+                <a  class="link" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="main"> 
+        <form class="form">
+            <div class="grp">
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Enter your Email" required>
+            </div>
+            <div class="grp">
+                <label for="password">Password:</label>
+                <input type="password" name="password" placeholder="Enter your password" required>
+            </div>
+
+            <button type="submit" class="login">Login</button>
+        </form>
+    </div>
+</body>
+</html>
